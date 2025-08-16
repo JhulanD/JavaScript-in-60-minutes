@@ -1,5 +1,7 @@
 # JavaScript in 60 Minutes – Learning Guide
 
+<img src="assets/thumbnail2.png" alt="Thumbnail" width="300" />
+
 ## Overview
 
 This project is a concise yet comprehensive guide to learning core JavaScript concepts quickly, tailored for beginners. It covers fundamental topics such as data types, objects, arrays, functions, logical operators, and loops — all explained with examples and step-by-step code.

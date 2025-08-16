@@ -106,3 +106,64 @@ if (isWeekend || isHoliday) {
 // if (isGuest || hasLimitedAccess) {
 //   showRestrictedMessage();
 // }
+
+
+// Understanding Loops in JavaScript:
+    // While Loop vs For Loop
+        // Loops are a fundamental concept in programming that allow you to repeat a block of code multiple times. JavaScript provides several types of loops, but the most commonly used are the while loop and the for loop. This guide will help you understand both, their differences, and when to use each.
+
+    // What is a While Loop?
+        // The while loop repeats a block of code as long as a specified condition remains true. It checks the condition before running the loop’s code each time.
+    let i = 1;               // Initialization outside the loop
+    while (i <= 5) {        // Condition checked before each iteration
+    console.log(i);        // Code executed if condition is true
+    i++;                  // Increment to eventually end the loop
+    }
+
+    // Explanation:
+    // // We start with i = 1.
+    // The loop runs as long as i is less than or equal to 5.
+    // Inside the loop, it prints the value of i and increases it by 1.
+    // When i becomes 6, the condition is false and the loop stops.
+
+    let x = 6;
+    while (x <= 10) {
+        console.log(x);
+        x++;
+    }
+
+    // ------------
+
+// What is a For Loop?
+// -------------------
+    // The "for loop" is useful when you know in advance how many times you want to repeat a block of code. It combines initialization, condition checking, and iteration updating all in one line for clarity and convenience.
+
+    // Example: Counting from 1 to 5 with a For Loop
+
+    console.log('Counting from 1 to 5 with j "For Loop" -')
+    for (let j = 1; j <= 5; j++) {
+        console.log(j);
+    }
+
+    for (let isPresent = 5; isPresent <=20; isPresent++) {
+        console.log(isPresent);
+    }
+
+    console.log('------------------------');
+    // More functions
+    console.log('More functions!')
+    function addStrings(str1, str2) {
+        console.log(str1 + ' ' + str2);
+    }
+    addStrings('Hello', 'Sasha');
+
+    // More and more functions
+    // -----------------
+    function addHello(hello1 = 'Hello1', hello2 = 'Hello2') {
+        let concatHello = hello1 + ' ' + hello2
+        console.log(concatHello)
+        return concatHello
+    }
+
+    let newHello = addHello('hello how are you!')
+    console.log('The new string is - ', newHello)
